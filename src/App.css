@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Rifton';
+  src: url('./fonts/FontsFree-Net-rifton-norm.ttf') format('truetype');
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+:root {
+  /* colors */
+  --backgroundColor: #151515;
+
+  --colorWhite: #ffffff;
+  --colorRed: #ff3848;
+
+  --shadow: 0px 0px 10px rgba(157, 157, 157, 0.15);
+}
+
+body {
+  background: var(--backgroundColor);
+}

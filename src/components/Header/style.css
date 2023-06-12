@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(157, 157, 157, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_container {
+  background-color: var(--backgroundColor);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+
+@media (max-width: 1450px) {
+  .footer_container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .footer_container {
+    width: 100%;
+  }
+}
