@@ -39,6 +39,7 @@
   display: flex;
   padding-top: 72px;
   font-size: 26px;
+  line-height: 150%;
 }
 
 .img_container {
@@ -109,5 +110,22 @@
   }
   .text_container {
     width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .icon {
+    width: 56px;
+    top: -9%;
+  }
+  .img_container img {
+    width: 150px;
+  }
+  .main_container {
+    padding-bottom: 165px;
+    height: 80vh;
+  }
+  .addition_information {
+    padding-top: 24px;
   }
 }

@@ -1,3 +1,9 @@
 .img_feed {
   width: 100vw;
 }
+
+@media (max-width: 500px) {
+  .img_feed {
+    height: 60px;
+  }
+}
